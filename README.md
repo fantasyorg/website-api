@@ -6,7 +6,7 @@ A complete api with several solutions to manage your data or even access server 
 
 All server users have an access token, consisting of a [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken), consisting of your uuid and your hash. You can get your hash by accessing the server and typing the command <code>/developer</code>.
 
-Using your token you will get access to the api, using a header with the <code>authorization</code> node in your requests, see an example below:
+Using your token you will get access to the api, using a header with the <code>authorization</code> in your requests, see an example below:
 ```javascript
    const response = await fetch('https://redefantasy.com/api/user', {
         headers: {
